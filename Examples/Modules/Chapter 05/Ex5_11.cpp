@@ -1,15 +1,20 @@
 // Working with strings in an array
-import <iostream>;
-import <array>; // for std::size()
+//import <iostream>;
+#include <iostream>
+//import <array>; // for std::size()
+#include <array> //Change this for the new version c++
 
 int main()
+
 {
   const size_t max_length{ 80 };      // Maximum string length (including \0)
-  char stars[][max_length]{
-                          "Fatty Arbuckle",  "Clara Bow",
-                          "Lassie",          "Slim Pickens",
-                          "Boris Karloff",   "Mae West",
-                          "Oliver Hardy",    "Greta Garbo"
+  char stars[][max_length]
+  
+  {
+                          "Aries 1",  "Aries 5",
+                          "Aries 2",          "Aries 6 6 6",
+                          "Aries 3",   "Aries 7",
+                          "Aries 4",    "Aries 8 lalala"
   };
   size_t choice{};
 
